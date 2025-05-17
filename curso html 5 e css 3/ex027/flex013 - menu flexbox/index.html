@@ -22,12 +22,15 @@
             background-color: gray;
             color: white;
             padding: 10px;
+            display: flex;
+            flex-flow: row wrap;
         }
         header > h1{
             border: 1px dotted black;
         }
         header > nav{
-            border: 1px dotted black;            
+            border: 1px dotted black;
+
         }
         main{
             background-color: white;
@@ -35,6 +38,20 @@
             padding: 10px;
             border-radius: 10px;
             box-shadow: 0px 0px 25px black;
+        }
+        header > nav > a{
+            background-color: black;
+            color: white;
+            padding: 10px;
+            margin: 5px;
+            border-radius: 5px;
+            text-decoration: none;
+            text-align: center;
+        }
+        header > nav > a:hover{
+            background-color: white;
+            color: black;
+            transition: background-color 0.5s;
         }
     </style>
 </head>
