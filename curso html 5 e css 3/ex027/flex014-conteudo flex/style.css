@@ -13,10 +13,43 @@ body{
 section.flex-content{
     background-color: lightgray; 
     padding: 20px;
+    display: flex;
+    flex-flow: column nowrap;
 }
 header, section.normal{
     padding: 20px;
 }
-p, h1, h2{
-    
+p{
+    margin-bottom: 10px;
+    text-align: justify;
+}
+h1, h2{
+    line-height: 1.2em;
+    margin-bottom: 20px;
+    text-align: left;
+}
+article.text-media{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+article.media-text{
+    display: flex;
+    flex-direction: row wrap-reverse;
+    justify-content: space-between;    
+}
+article > div.text{
+    flex: 1 1 500px;
+}
+article > div.media{
+    flex: 1 0 500px;
+}
+div.media > img{
+    display: block;
+    margin: auto;
+}
+div.media > iframe{
+    display: block;
+    margin: auto;
+    width: 90%;
 }
