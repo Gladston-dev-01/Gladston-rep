@@ -54,7 +54,19 @@ body{
         background-color: #ddd;
         padding: 10px;
         margin: 2px;
+        transition: background-color 1s;
+      }
+      nav#menu li:hover{
+        background-color: #606060;
       }
       nav#menu h1{
         display: none;
+      }
+      nav#menu a{
+        text-decoration: none;
+        color: black;
+      }
+      nav#menu a:hover{
+        color: white;
+        transition: 0.5s;
       }
