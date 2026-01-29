@@ -1,4 +1,4 @@
-@charset 'utf-8';
+@charset "utf-8";
 *{
     margin: 0;
     padding: 0;
@@ -10,10 +10,67 @@ body{
         background-color: black;
         color: white;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        padding: 70px;
+        padding: 5vw;
     }
     h1{
-        font-size: 70px;
-        margin-bottom: 10px;
+        font-size: 8vw;
+    }
+    p#header{
+        font-size: 2vw;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    main>p{
+        text-align: left;
+        font-size: 3vw;
+        margin-top: 5vw;
+        margin-bottom: 25vw;
+        font-family: cursive;
+        line-height: 2.5;
+        padding: 0 2vw;
+    }
+    main div#a{
+        text-align: left;
+        font-size: 3vw;
+        margin-top: 5vw;
+        margin-bottom: 25vw;
+        font-family: cursive;
+        line-height: 2.5;
+        padding: 0 2vw;
+        background-image: url(bffc283d48aa951dc6ab9266790930c8.jpg);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    main div#b{
+        text-align: left;
+        font-size: 3vw;
+        margin-top: 5vw;
+        margin-bottom: 25vw;
+        font-family: cursive;
+        line-height: 2.5;
+        padding: 0 2vw;
+        background-image: url(vertical-shot-of-a-person-writing-with-a-feather-on-a-scroll_181624-9588.avif);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    main>div>p{
+        color: white;
+        background-color: rgba(0, 0, 0, 0.5);
+        width: fit-content;
+        padding: 2vw;
+    }
+    footer{
+        text-align: center;
+        font-size: 1.5vw;
+        padding: 2vw;
+        background-color: black;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
     }
 }
