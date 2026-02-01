@@ -9,7 +9,7 @@ body{
         text-align: center;
         background-color: black;
         color: white;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-family: passion one, sans-serif;
         padding: 5vw;
     }
     h1{
@@ -29,7 +29,7 @@ body{
         font-size: 3vw;
         margin-top: 5vw;
         margin-bottom: 25vw;
-        font-family: cursive;
+        font-family: sriracha, sans-serif;
         line-height: 2.5;
         padding: 0 2vw;
     }
@@ -38,32 +38,33 @@ body{
         font-size: 3vw;
         margin-top: 5vw;
         margin-bottom: 25vw;
-        font-family: cursive;
+        font-family: sriracha, sans-serif;
         line-height: 2.5;
         padding: 0 2vw;
-        background-image: url(bffc283d48aa951dc6ab9266790930c8.jpg);
+        background-image: url(background001.jpg);
         background-size: cover;
         background-position: center;
         background-attachment: fixed;
+        box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.411);
     }
     main div#b{
         text-align: left;
         font-size: 3vw;
         margin-top: 5vw;
         margin-bottom: 25vw;
-        font-family: cursive;
+        font-family: sriracha, sans-serif;
         line-height: 2.5;
         padding: 0 2vw;
-        background-image: url(vertical-shot-of-a-person-writing-with-a-feather-on-a-scroll_181624-9588.avif);
+        background-image: url(background002.jpg);
         background-size: cover;
         background-position: center;
         background-attachment: fixed;
+        box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.411);
     }
     main>div>p{
         color: white;
         background-color: rgba(0, 0, 0, 0.5);
         width: fit-content;
-        padding: 2vw;
     }
     footer{
         text-align: center;
