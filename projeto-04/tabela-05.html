@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício de Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+        caption{
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+        th, td{
+            border: 1px solid black;
+            padding: 8px;
+        }
+        .cnome{
+            background-color: lightblue;
+        }
+        .cgrupo{
+            background-color: lightgreen;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="cgrupo" span="3">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col" >Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td >Ana Maria</td>
+            <td>Feminino</td>
+            <td>25</td>
+            <td>Engenheira</td>
+        </tr>
+        <tr>
+            <td >Bruno Silva</td>
+            <td>Masculino</td>
+            <td>30</td>
+            <td>Médico</td>
+        </tr>
+        <tr>
+            <td >Carla Souza</td>
+            <td>Feminino</td>
+            <td>28</td>
+            <td>Advogada</td>
+        </tr>
+        <tr>
+            <td >Daniel Oliveira</td>
+            <td>Masculino</td>
+            <td>35</td>
+            <td>Professor</td>
+        </tr>
+        <tr>
+            <td >Elisa Ferreira</td>
+            <td>Feminino</td>
+            <td>22</td>
+            <td>Designer</td>
+        </tr>
+        <tr>
+            <td >Felipe Costa</td>
+            <td>Masculino</td>
+            <td>27</td>
+            <td>Programador</td>
+        </tr>
+    </table>
+</body>
+</html>
