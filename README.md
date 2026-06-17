@@ -15,13 +15,11 @@ Aqui demonstro minha sólida base em estruturação semântica, estilização av
 
 ---
 
-## 📂 Principais Projetos no Repositório
+## 📂 Principal Projeto no Repositório
 
-Como ativei o GitHub Pages, você pode ver os resultados finais de alguns dos projetos diretamente no seu navegador clicando nos links abaixo:
+Como ativei o GitHub Pages, você pode ver o resultado finail do projeto diretamente no seu navegador clicando nos links abaixo:
 
 * **[Projeto Cordel (projeto-03)](https://gladston-dev-01.github.io/Gladston-rep/projeto-03/):** Uma página com efeitos visuais de rolagem (parallax) combinando literatura e design moderno.
-* **[Projeto Redes Sociais (projeto-02)](https://gladston-dev-01.github.io/Gladston-rep/projeto-02/):** Tela simulando a navegação de redes sociais dentro de uma interface de celular.
-* **[Projeto Final (projeto-04)](https://gladston-dev-01.github.io/Gladston-rep/projeto-04/):** Projeto completo aplicando as técnicas de design responsivo e interações.
 
 
 ---
